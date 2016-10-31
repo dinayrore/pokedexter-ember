@@ -1,0 +1,21 @@
+<div class="row">
+  <div class="frame"></div>
+  <div class="screen">
+    <div class="col-md-12 text-center">
+      <h1>#{{zero-pad model.id 3}}: {{sentence-case model.name}}</h1>
+      <h2>
+        Type:
+        {{#each (poke-type model.types) as |type|}}
+          {{sentence-case type}} /
+        {{/each}}
+      </h2>
+      <img src= {{model.sprites.front_default}}>
+      <h3>Height: {{height model.height}}</h3>
+      <h3>Weight: {{weight model.weight}}</h3>
+      <h3>Base experience: {{model.base_experience}}</h3>
+      {{#unless indexViewIsShown}}
+      {{#link-to 'index'}}<h6>Keep Searching...</h6>{{/link-to}}
+      {{/unless}}
+    </div>
+  </div>
+</div>

@@ -1,7 +1,7 @@
-# Pokedexter-ember
+# PokeDexter-Ember
 
 This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+I began this project out of shear curiosity and general interest in creating a web app that draws data from a third party API and is developed using multiple languages/frameworks (link to other Git Repos here). This particular application was written using the Ember framework.
 
 ## Prerequisites
 
@@ -16,7 +16,7 @@ You will need the following things properly installed on your computer.
 ## Installation
 
 * `git clone <repository-url>` this repository
-* `cd pokedexter-ember`
+* `cd pokedex-ember`
 * `npm install`
 * `bower install`
 
@@ -39,10 +39,6 @@ Make use of the many generators for code, try `ember help generate` for more det
 * `ember build` (development)
 * `ember build --environment production` (production)
 
-### Deploying
-
-Specify what it takes to deploy your app.
-
 ## Further Reading / Useful Links
 
 * [ember.js](http://emberjs.com/)
@@ -51,3 +47,12 @@ Specify what it takes to deploy your app.
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
 
+## Acknowledgments
+
+* The Iron Yard - Durham
+
+* Dan Yuschick
+
+* Doug Hughes
+
+* Menewman
