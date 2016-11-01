@@ -110,8 +110,8 @@ body.ember-application {
 
 .form-control.ember-view.ember-text-field {
   border: none;
-  font-size: -webkit-xxx-large;
-  margin: 14px;
+  font-size: xx-large;
+  margin: 20px;
   text-align: center;
 }
 
